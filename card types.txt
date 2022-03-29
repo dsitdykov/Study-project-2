@@ -1,16 +1,16 @@
--1 - super ataka -15dmg  2
-0 - nieko nedaro  14
-1 - super pasigydimas +15hp  2
+-15 super atack 2x
+0 empty 14x
+15 super heal 2x
 
--4 paprasta ataka 6
--6 paprasta ataka 5
--8 paprasta ataka 4
--10 paprasta ataka 3
+-4 simple atack 6x
+-6 simple atack 5x
+-8 simple atack 4x
+-10 simple atack 3x
 
-4 paprastas pasigydimas 6
-6 paprastas pasigydimas 5
-8 paprastas pasigydimas 4
-10 paprastas pasigydimas 3
+4 simple heal 6x
+6 simple heal 5x
+8 simple heal 4x
+10 simple heal 3x
 
-Is viso - 54 kortos
+In total - 54 cards
   
