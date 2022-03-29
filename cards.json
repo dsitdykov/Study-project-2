@@ -1,0 +1,218 @@
+	[
+		{
+		  "name":"Lion Roar",
+		  "effect": -15
+		},
+		{
+		  "name":"Tiger claw",
+		  "effect": -15
+		},
+		{
+		  "name":"Bored cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Bored cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Bored cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Bored cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Bored cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Bored cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Bored cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Sad cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Sad cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Sad cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Sad cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Sad cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Sad cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Sad cat",
+		  "effect": 0
+		},
+		{
+		  "name":"Veterinary",
+		  "effect": 15
+		},
+		{
+		  "name":"Bandages",
+		  "effect": 15
+		},
+		{
+		  "name":"Angry face",
+		  "effect": -4
+		},
+		{
+		  "name":"Angry face",
+		  "effect": -4
+		},
+		{
+		  "name":"Angry face",
+		  "effect": -4
+		},
+		{
+		  "name":"Angry face",
+		  "effect": -4
+		},
+		{
+		  "name":"Angry face",
+		  "effect": -4
+		},
+		{
+		  "name":"Angry face",
+		  "effect": -4
+		},
+		{
+		  "name":"Hissing",
+		  "effect": -6
+		},
+		{
+		  "name":"Hissing",
+		  "effect": -6
+		},
+		{
+		  "name":"Hissing",
+		  "effect": -6
+		},
+		{
+		  "name":"Hissing",
+		  "effect": -6
+		},
+		{
+		  "name":"Hissing",
+		  "effect": -6
+		},
+		{
+		  "name":"Biting",
+		  "effect": -8
+		},
+		{
+		  "name":"Biting",
+		  "effect": -8
+		},
+		{
+		  "name":"Biting",
+		  "effect": -8
+		},
+		{
+		  "name":"Biting",
+		  "effect": -8
+		},
+		{
+		  "name":"Scratching",
+		  "effect": -10
+		},
+		{
+		  "name":"Scratching",
+		  "effect": -10
+		},
+		{
+		  "name":"Scratching",
+		  "effect": -10
+		},
+		{
+		  "name":"Meow meow",
+		  "effect": 4
+		},
+		{
+		  "name":"Meow meow",
+		  "effect": 4
+		},
+		{
+		  "name":"Meow meow",
+		  "effect": 4
+		},
+		{
+		  "name":"Meow meow",
+		  "effect": 4
+		},
+		{
+		  "name":"Meow meow",
+		  "effect": 4
+		},
+		{
+		  "name":"Meow meow",
+		  "effect": 4
+		},
+		{
+		  "name":"Licking",
+		  "effect": 6
+		},
+		{
+		  "name":"Licking",
+		  "effect": 6
+		},
+		{
+		  "name":"Licking",
+		  "effect": 6
+		},
+		{
+		  "name":"Licking",
+		  "effect": 6
+		},
+		{
+		  "name":"Licking",
+		  "effect": 6
+		},
+		{
+		  "name":"Petting time",
+		  "effect": 8
+		},
+		{
+		  "name":"Petting time",
+		  "effect": 8
+		},
+		{
+		  "name":"Petting time",
+		  "effect": 8
+		},
+		{
+		  "name":"Petting time",
+		  "effect": 8
+		},
+		{
+		  "name":"Nap time",
+		  "effect": 10
+		},
+		{
+		  "name":"Nap time",
+		  "effect": 10
+		},
+		{
+		  "name":"Nap time",
+		  "effect": 10
+		}
+	]

@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url('/bg.png');
+}
+
+.play__background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 80px;
+    z-index: 1;
+    background-color: #034146;
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.play:hover{
+    background-color: #023033;
+}
+
+.win{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
+    z-index: 1;
+    display: none;
+}
+.win h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.lose{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
+    z-index: 1;
+    display: none;
+}
+.lose h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.menu__container{
+    /* background-color: yellow; */
+    position: relative;
+    width: 20%;
+    height: 100vh;   
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;   
+    transform: translateY(-50%);
+    /* background-color: white; */
+}
+
+.button{
+    background-color: rgb(214, 214, 214);
+    padding: 1em;
+    margin: 1em;
+    cursor: pointer;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4);
+}
+.button:hover{
+    background-color: rgb(204, 204, 204);
+}
+
+.quit__button{
+    top: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.dog__container{
+    /* background-color: red; */
+    width: 60%;
+    height: 50%;
+    margin-left: 20%;
+}
+
+.cat__container{
+    /* background-color: blue; */
+    width: 60%;
+    height: 50%;   
+    top: 50%;
+    margin-left: 20%;
+}
+
+.dog__wrapper{
+    margin-top: 22%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    max-width: 60%;
+    justify-content: space-around;
+    justify-content: center;
+}
+  
+.dog__card{
+    width: 90px;
+    height: 120px;
+    position: relative;
+    margin: 0.6em;
+    text-align: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background-color: white;
+}
+
+.dog__card h1{
+    font-weight: 500;
+    margin-top: 20%;
+    font-size: 20px;
+}
+.dog__card h3{
+    font-weight: 400;
+    margin-top: 10%;
+    font-size: 14px;
+}
+
+.cat__wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+    justify-content: center;
+}
+  
+.cat__card{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    margin: 1em;
+    text-align: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background-color: white;
+}
+
+.cat__card h1{
+    font-weight: 500;
+    margin-top: 20%;
+}
+.cat__card h3{
+    font-weight: 400;
+    margin-top: 10%;
+}
+
+.deck__container{
+    /* background-color: green; */
+    position: relative;
+    width: 20%;
+    height: 100vh;   
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.deck{
+    width: 200px;
+    height: 266px;
+    position: absolute;
+    text-align: center;
+    top: 50%;   
+    transform: translateY(-50%);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background-color: rgb(214, 214, 214);
+}
+
+.deck__number{
+    text-align:center;
+    margin-top: 50%;
+}
+
+.yellow{
+    border: 1px solid #fbd600;
+    border-radius: 5px;
+    outline: none;
+    border-color: #fbd600;
+    box-shadow: 0 0 10px #fbd600;
+}
+
+.blue{
+    border: 1px solid #00aeff;
+    border-radius: 5px;
+    outline: none;
+    border-color: #00aeff;
+    box-shadow: 0 0 10px #00aeff;
+}
+
+.green{
+    border: 1px solid #44d800;
+    border-radius: 5px;
+    outline: none;
+    border-color: #44d800;
+    box-shadow: 0 0 10px #44d800;
+}
+
+.red{
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    outline: none;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.dog__health{
+    margin-left: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.cat__health{
+    margin-left: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.dog__damage{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.dog__heal{
+    background-color: rgba(9, 255, 0, 0.2);
+}
+
+.cat__damage{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.cat__heal{
+    background-color: rgba(9, 255, 0, 0.2);
+}

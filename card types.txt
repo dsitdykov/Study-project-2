@@ -1,0 +1,16 @@
+-1 - super ataka -15dmg  2
+0 - nieko nedaro  14
+1 - super pasigydimas +15hp  2
+
+-4 paprasta ataka 6
+-6 paprasta ataka 5
+-8 paprasta ataka 4
+-10 paprasta ataka 3
+
+4 paprastas pasigydimas 6
+6 paprastas pasigydimas 5
+8 paprastas pasigydimas 4
+10 paprastas pasigydimas 3
+
+Is viso - 54 kortos
+  

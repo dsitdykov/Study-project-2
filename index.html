@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+    <title>O KĄ KAČIUKS DARO?</title> 
+</head>
+<body>
+
+    <div class="play__background" id="play">
+        <button class="play" onclick="play()" id="play">Start a game</button>
+    </div>
+
+    <div class="win" id="win">
+        <h1>Congrats, you won!</h1>
+        <button class="play winbtn" onclick="refreshPage()" id="winbtn">Play again</button>
+    </div>
+
+    <div class="lose" id="lose">
+        <h1>Better Luck next time!</h1>
+        <button class="play losebtn" onclick="refreshPage()" id="losebtn">Play again</button>
+    </div>
+
+    <div class="menu__container">
+        <div class="menu">
+            <div class="button restart__button" onclick="refreshPage()">Restart</div>
+            <div class="button quit__button" onclick="closePage()">Quit</div>
+        </div>
+    </div>
+
+    <div class="container dog__container" id="dog-color">
+        <h1 class="dog__health" id="dog-health">Health: 50</h1>
+        <div class="dog__wrapper" id="dog">     
+        </div>
+    </div>
+
+    <div class="container cat__container" id="cat-color">
+        <h1 class="cat__health" id="cat-health">Health: 50</h1>
+        <div class="cat__wrapper" id="cat">
+        </div>
+    </div>
+
+    <div class="deck__container">
+        <div class="deck">
+            <h1 class="deck__number" id="deck">54</h1>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
